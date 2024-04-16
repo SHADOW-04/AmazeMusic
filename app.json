@@ -1,0 +1,109 @@
+{
+    "name": "Amaze Music",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls. By ALPHA",
+    "logo": "https://graph.org/file/7c53a2db3236cac20c1f2.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Alpha",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+   "repository": "https://github.com/SHADOW-04/AmazeMusic",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "LOG_GROUP_ID": {
+        "description": "group id where you will log bot activity ",
+        "value": "",
+        "required": false
+      },
+      "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "Your REPO url here.",
+        "value": "Https://github.com/SHADOW-04/AmazeMusic",
+        "required": false
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Your REPO branch",
+        "value": "main",
+        "required": false
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "True or False",
+        "value": "False",
+        "required": false
+      },
+      "SPOTIFY_CLIENT_ID": {
+        "description": "Get this credentials from https://developer.spotify.com/dashboard ",
+        "value": "",
+        "required": true
+      },
+       "SPOTIFY_CLIENT_SECRET": {
+        "description": "Get this credentials from https://developer.spotify.com/dashboard ",
+        "value": "",
+        "required": true 
+      },  
+      "GIT_TOKEN": {
+        "description": "Get your git token if repo is private.",
+        "value": "",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
