@@ -1,16 +1,5 @@
 <h1 align="center">🎧Amaze Music Bot🎧</h1>
 
-<p align="center">
-  <img src="https://graph.org/file/7c53a2db3236cac20c1f2.jpg" alt="Amaze Music Logo" width="600" height="150">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/SHADOW-04/AmazeMusic?style=for-the-badge&color=blue" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/SHADOW-04/AmazeMusic?style=for-the-badge&color=blue" alt="GitHub forks">
-  <img src="https://img.shields.io/github/issues/SHADOW-04/AmazeMusic?style=for-the-badge&color=red" alt="GitHub issues">
-  <img src="https://img.shields.io/github/license/SHADOW-04/AmazeMusic?style=for-the-badge&color=green" alt="GitHub license">
-</p>
-
 <h2 align="center">Best Lag-Free Music Experience</h2>
 
 ---
